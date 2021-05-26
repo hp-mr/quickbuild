@@ -1,7 +1,6 @@
-plugins {
-    id 'com.android.application'
-}
-
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'//this
+group='com.github.hp-mr'//this
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
