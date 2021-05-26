@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        app:cardCornerRadius="5dp"
+        android:layout_height="wrap_content">
+        <com.kira.quickbuild.base.view.SquareWidthImageView
+            android:id="@+id/iv_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_add_image" />
+    </com.google.android.material.card.MaterialCardView>
+    <ImageView
+        android:id="@+id/iv_del"
+        android:layout_margin="6dp"
+        android:elevation="6dp"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="right"
+        android:src="@drawable/ic_upload_delete" />
+</FrameLayout>
+

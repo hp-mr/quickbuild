@@ -1,0 +1,4 @@
+<resources>
+    <string name="code_end">获取验证码</string>
+    <string name="copy_success">已复制到黏贴板</string>
+</resources>
